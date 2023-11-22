@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: antiquewhite;
+    border: 1px solid black;
+}
+nav ul{
+    display: flex;
+    margin: 10px;/* cant figure out how to align-items:center for the nav text*/
+    justify-content: right;
+    align-items: center;
+    padding-right: 5%;
+    list-style-type: none;
+}
+nav ul li a{
+    color:green;
+    display: block;
+    padding: 20px;
+    border: 1px solid black;
+}
