@@ -13,9 +13,9 @@ li, a, button{
 }
 /*header*/
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex;/*this put eveything in position flex (almost like display:inline-block */
+    justify-content: space-between;/*this pushes items to each ends and puts space inbetween the ends */
+    align-items: center;/*aligns items on the vertical axis to the center (up and down) */
     padding: 30px 5%;
 }
 .header_logo{
