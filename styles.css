@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
+    list-style: none;
     box-sizing: border-box;
     background-color: rgb(226, 224, 222);
 }
@@ -42,20 +43,63 @@ header{
 .cta {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: blueviolet;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     transition: all 0.3s ease  0s;
 }
 .cta:hover{
-    background-color:blueviolet; 
+    background-color: rgb(123, 123, 250);
     color: white;
     font-size: 30px;
 }
-/*header*/
-
-
+/*card*/
+.card{
+    margin: 10% 5%;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.card_content{
+    display: flex;
+}
+.card_content .card_background img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.card_content .card_text{
+    margin: 1% 2%;
+}
+.card_content .card_text .card_title {
+    text-align: left;
+}
+.card_content .card_text .card_bio{
+    text-align: left;
+    font-size: 25px;
+}
+.card_content .card_text .card_paragraph{
+    text-align: left;
+    margin: 2%;
+    font-size: 40px;
+}
+.card_badges ul{
+    display: flex;
+    justify-content: left;
+}
+.card_badges ul li{
+    padding: 10px;
+}
+.card_badges ul li a{
+    color: rgb(123, 123, 250);
+    transition: all 0.3s ease  0s;
+}
+.card_badges ul li a:hover{
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    text-shadow: 0px 0px 20px  rgb(123, 123, 250);
+}
 
 
 
