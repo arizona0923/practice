@@ -1,31 +1,70 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     box-sizing: border-box;
+    background-color: rgb(226, 224, 222);
 }
-body{
-    height: 100vh;
-    width: 100%;
+li, a, button{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
 }
-nav{
-    height: 100px;
-    width: 100%;
-    background-color: antiquewhite;
-    border: 1px solid black;
-}
-nav ul{
+/*header*/
+header{
     display: flex;
-    margin: 10px;/* cant figure out how to align-items:center for the nav text*/
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
-    padding-right: 5%;
-    list-style-type: none;
+    padding: 30px 5%;
 }
-nav ul li a{
-    color:green;
-    display: block;
-    padding: 20px;
-    border: 1px solid black;
+.header_logo{
+    cursor: pointer;
+    transition: all 0.3s ease  0s;
 }
+.header_logo:hover{
+    font-size: 35px;
+}
+.navbar{
+    list-style: none;
+}
+.navbar li{
+    display: inline-block; /*this makes the li appear on one line*/
+    padding: 0px 20px;/*top/down and left/right padding*/
+}
+.navbar li a{
+    transition: all 0.3s ease  0s;/*this gave it smooth transition into animation/ all animations to these anchors will have that transition timing including :hover*  so you dont need it in the :hover declartation*/
+}
+.navbar li a:hover{
+    color: rgb(123, 123, 250);
+    font-size: 32px;/*Gives the "grow in size" animation*/
+}
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease  0s;
+}
+.cta:hover{
+    background-color:blueviolet; 
+    color: white;
+    font-size: 30px;
+}
+/*header*/
+
+
+
+
+
+
+
+
+
+/*header*/
+
+/*header*/
+
+/*header*/
