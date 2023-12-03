@@ -19,24 +19,24 @@ header{
     align-items: center;/*aligns items on the vertical axis to the center (up and down) */
     padding: 30px 5%;
 }
-.header_logo{
+.logo{
     cursor: pointer;
     transition: all 0.3s ease  0s;
 }
-.header_logo:hover{
+.logo:hover{
     font-size: 35px;
 }
-.navbar{
+.nav-links{
     list-style: none;
 }
-.navbar li{
+.nav-links li{
     display: inline-block; /*this makes the li appear on one line*/
     padding: 0px 20px;/*top/down and left/right padding*/
 }
-.navbar li a{
+.nav-links li a{
     transition: all 0.3s ease  0s;/*this gave it smooth transition into animation/ all animations to these anchors will have that transition timing including :hover*  so you dont need it in the :hover declartation*/
 }
-.navbar li a:hover{
+.nav-links li a:hover{
     color: rgb(123, 123, 250);
     font-size: 32px;/*Gives the "grow in size" animation*/
 }
@@ -57,6 +57,8 @@ header{
 /*card*/
 .card{
     margin: 10% 5%;
+    height: auto;
+    width: auto;
     padding: 20px;
     border: 3px solid black;
     border-radius: 50px;
