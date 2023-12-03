@@ -31,6 +31,7 @@ nav{
     gap: 2rem;
     position: sticky;
     top: 0;
+    background-color: #deebee;
     box-shadow: 0 5px 80px rgba(0, 0, 0, 0.1)
 }
 .nav-logo{
@@ -44,6 +45,7 @@ nav{
 }
 .nav-logo:hover{
     font-size: 30px;
+    color: #5e3bee;
 }
 .nav-links{
     list-style: none;
@@ -54,29 +56,32 @@ nav{
 .link a{ 
     position: relative;
     padding-bottom: 0.75rem;
-    color: rgb(123, 123, 250);
+    color: black;
+    font-weight: bold;
     font-size: 1.5em;
     transition: all 0.3s ease  0s;/*this gave it smooth transition into animation/ all animations to these anchors will have that transition timing including :hover*  so you dont need it in the :hover declartation*/
 }
 .link a:hover{
-    color: blueviolet;
+    color: #5e3bee;
     font-size: 32px;/*Gives the "grow in size" animation*/
 }
 nav .btn{
     font-size: 1.5em;
     margin-right: 50px;
     padding: 12px 16px;
-    background-color: blueviolet;
+    background-color: #5e3bee;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 100px;
     transition: all 0.3s ease  0s;
+    border: 3px solid #5e3bee;
     cursor: pointer;
 }
 nav .btn:hover{
     font-weight: bold;
-    color:  blueviolet;
+    color: #000000;
     background-color: transparent;
+    border: 3px solid #000000;
 }
 nav button#menuButton{
     display: none;
@@ -114,6 +119,7 @@ nav button#menuButton{
 }
 .main .left button{
     margin-top: 40px;
+    font-size: 1.3rem;
     color: #fff;
     cursor: pointer;
     background-color: #5e3bee;
@@ -126,25 +132,23 @@ nav button#menuButton{
     flex-direction: column;
     align-items: center;
 }
-.main .right img{
+.main .right .main-picture{
     width: 500px;
     border-radius: 50%;
 }
 .card_badges ul{
     margin-top: 20px;
     display: flex;
+    width: 500px;
+    gap: 30px;
 }
-.card_badges ul li{
-    padding: 10px;
-}
-.card_badges ul li a{
-    color: rgb(123, 123, 250);
-    font-size:1.5rem;
-    transition: all 0.3s ease  0s;
-}
-.card_badges ul li a:hover{
-    color:rgb(255, 255, 255);
-    text-shadow: 0px 0px 20px  rgb(123, 123, 250);
+.card_badges ul li img{
+    display: flex;
+    max-width: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
 
 
