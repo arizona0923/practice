@@ -7,7 +7,6 @@
     border: none;
     list-style: none;
     box-sizing: border-box;
-    background-color: rgb(226, 224, 222);
 }
 img{
     width: 100%;
@@ -16,36 +15,40 @@ img{
 a{
     text-decoration: none; 
 }
-li, a, button{
-    font-weight: 500;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+body{
+    background-color: rgb(226, 224, 222);
 }
-/*header*/
-header{
+nav{
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
     display: flex;/*this put eveything in position flex (almost like display:inline-block */
     justify-content: space-between;/*this pushes items to each ends and puts space inbetween the ends */
     align-items: center;/*aligns items on the vertical axis to the center (up and down) */
-    padding: 30px 5%;
+    gap: 2rem;
 }
-.logo{
+.nav-logo{
+    max-width: auto;
+    display: flex;
     cursor: pointer;
     transition: all 0.3s ease  0s;
 }
-.logo:hover{
-    font-size: 35px;
+.nav-logo:hover{
+    font-size: 30px;
 }
 .nav-links{
     list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
 }
-.nav-links li{
-    display: inline-block; /*this makes the li appear on one line*/
-    padding: 0px 20px;/*top/down and left/right padding*/
-}
-.nav-links li a{
+.link a{ 
+    outline: dotted;
+    position: relative;
+    padding-bottom: 0.75rem;
     transition: all 0.3s ease  0s;/*this gave it smooth transition into animation/ all animations to these anchors will have that transition timing including :hover*  so you dont need it in the :hover declartation*/
 }
-.nav-links li a:hover{
+.link a:hover{
     color: rgb(123, 123, 250);
     font-size: 32px;/*Gives the "grow in size" animation*/
 }
