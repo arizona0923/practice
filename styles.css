@@ -139,7 +139,6 @@ nav button#menuButton{
 .card_badges ul{
     margin-top: 20px;
     display: flex;
-    width: 500px;
     gap: 30px;
 }
 .card_badges ul li img{
