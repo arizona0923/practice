@@ -244,8 +244,10 @@ nav button#menuButton{
 
 .portfolio .portfo-items{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    gap: 25px;
+    justify-content: space-around;
 }
 
 .portfolio .portfo-items .item{
@@ -358,9 +360,10 @@ footer{
 }
 
 footer .top,
-footer .bottom{
+footer .bottom, footer .top ul{
     display: flex;
     align-items: center;
+    gap: 10px;
     justify-content: space-between;
 }
 
