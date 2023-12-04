@@ -297,7 +297,17 @@ nav button#menuButton{
 .feedback{
     padding: 110px 85px;
 }
-
+.presence-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.presence-list .social-links{
+}
+.presence-list .social-links a{
+    font-size: 5rem;
+    height: auto;
+}
 .feedback .customers{
     margin-top: 50px;
     display: flex;
@@ -373,7 +383,12 @@ footer .top .social-links{
     gap: 10px;
     font-size: 22px;
 }
+footer .logo img{
+    border-radius: 100%;
+    width: 75px;
+    padding-bottom: 20px;
 
+}
 footer .separator{
     width: 100%;
     height: 1px;
