@@ -302,7 +302,8 @@ nav button#menuButton{
     align-items: center;
     justify-content: space-between;
 }
-.presence-list .social-links{
+.presence-list, .social-links{
+
 }
 .presence-list .social-links a{
     font-size: 5rem;
